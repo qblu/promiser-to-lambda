@@ -1,0 +1,28 @@
+{
+  "name": "promiser-to-lambda",
+  "version": "1.0.0",
+  "description": "Construct an AWS Lambda handler from a function that returns a promise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qblu/promiser-to-lambda.git"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "promise",
+    "handler"
+  ],
+  "author": "Joe Lafiosca <joe@quasarblu.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qblu/promiser-to-lambda/issues"
+  },
+  "homepage": "https://github.com/qblu/promiser-to-lambda#readme",
+  "dependencies": {
+    "bluebird": "^3.4.7"
+  }
+}
